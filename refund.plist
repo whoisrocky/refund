@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>items</key>
+	<key>Archive.ipa</key>
 	<array>
 		<dict>
 			<key>assets</key>
@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://x5.justep.com/apps/x5.ipa</string>
+					<string>http://180.169.225.27:7011/apps/Archive.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://x5.justep.com/apps/x5.png</string>
+					<string>http://180.169.225.27:7011/apps/Archive.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,19 +27,61 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://x5.justep.com/apps/x5.png</string>
+					<string>http://180.169.225.27:7011/apps/Archive.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.justep.x5.demo</string>
+				<string>com.hsic.BLRefund</string>
 				<key>bundle-version</key>
-				<string>5.3.2</string>
+				<string>1.0.4</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>X5 App download</string>
+				<string>Refund App download</string>
+			</dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>3EB7FD4AE98132DD88EFECF94EF62BA64208777E</string>
+				<key>dateExpires</key>
+				<string>2020/2/27</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>USW965BQT3.com.hsic.BLRefund</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>USW965BQT3</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>USW965BQT3.com.hsic.BLRefund</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>testwkview.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b739df35-38f2-48a1-ae94-91d00ceabdb7</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.hsic.BLRefund</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>USW965BQT3</string>
+				<key>name</key>
+				<string>Shanghai Hsic Application System Co.,Ltd</string>
 			</dict>
 		</dict>
 	</array>
