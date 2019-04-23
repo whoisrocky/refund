@@ -11,7 +11,7 @@
                    <key>kind</key>
                    <string>software-package</string>
                    <key>url</key>
-                   <string>http://180.169.225.27:7011/apps/Archive.ipa</string>
+                   <string>https://github.com/whoisrocky/refund/raw/master/Archive.ipa</string>
                </dict>
                <dict>
                    <key>kind</key>
@@ -19,7 +19,7 @@
                    <key>needs-shine</key>
                    <true/>
                    <key>url</key>
-                   <string>http://180.169.225.27:7011/apps/Archive.png</string>
+                   <string>https://github.com/whoisrocky/refund/raw/master/Archive.png</string>
                </dict>
            </array>
            <key>metadata</key>
